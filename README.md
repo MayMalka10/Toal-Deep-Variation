@@ -17,4 +17,4 @@ Total Variation (TV) is a noise removal process based on the principle that sign
 
 Suppose that we are given a noisy image $z$ and wish to compute a denoised image $x$ over a 2D space. The minimization problem we are looking to solve is:
 
-$\min_{x \in X} $ $\{{||Ax-z||^2_2}+\int_{x}||\nabla x||_1dx\}$
+$\min_{x \in X}{\{{||Ax-z||^2_2}+\int_{x}||\nabla x||_1dx\}}$
